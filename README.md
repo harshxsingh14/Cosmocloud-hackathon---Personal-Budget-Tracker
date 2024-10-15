@@ -30,7 +30,7 @@ MongoDB
 Clone the repository
 bash
 Copy code
-git clone https://github.com/yourusername/personal-budget-tracker.git
+git clone https://github.com/harshxsingh14/Cosmocloud-hackathon---Personal-Budget-Tracker.git
 cd personal-budget-tracker
 Backend Setup
 Navigate to the backend directory:
