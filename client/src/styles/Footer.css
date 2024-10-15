@@ -1,0 +1,46 @@
+.custom-padding {
+  margin-top: 35px;
+  padding-bottom: 20px;
+}
+
+.bg-dark {
+  background: linear-gradient(135deg, #343a40, #495057);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.text-light {
+  color: #e9ecef; /* Light text for better contrast */
+}
+
+.text-white {
+  color: #f8f9fa; /* Slightly brighter white for visibility */
+}
+
+.p-1 {
+  padding: 15px 20px; /* More balanced padding */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-content h6 {
+  margin: 5px 0;
+  font-weight: bold;
+  font-size: 1.2rem; /* Slightly larger for emphasis */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+}
+
+/* Optional: Add hover effect for footer text */
+.footer-content h6:hover {
+  color: #ffdab9; /* Lighter shade for hover effect */
+  transition: color 0.3s ease; /* Smooth transition */
+}

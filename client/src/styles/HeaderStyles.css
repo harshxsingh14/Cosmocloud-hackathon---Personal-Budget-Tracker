@@ -1,0 +1,56 @@
+/* Navbar container */
+.navbar {
+  background: linear-gradient(135deg, #6f4e37, #8d6e63) !important;
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+/* Navbar brand styling */
+.navbar .navbar-brand {
+  color: #fff !important; /* Use white for better contrast */
+  font-weight: bold;
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for the text */
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffdab9 !important; /* Lighter shade for hover effect */
+}
+
+/* Navbar links */
+.nav-link {
+  font-size: 1.1rem;
+  color: #fff !important;
+  margin-right: 15px;
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.nav-link:hover {
+  color: #ffdab9 !important; /* Lighter shade for better hover visibility */
+}
+
+/* Header text in navbar */
+.navbar h6 {
+  margin-top: 0px;
+  margin-right: 20px;
+  color: #fff; /* Use white for consistency */
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+/* Adjusting spacing for better layout */
+.navbar .navbar-collapse {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.5); /* Light background for toggler */
+  border: none; /* Remove default border */
+  transition: background-color 0.3s ease;
+}
+
+.navbar-toggler:hover {
+  background-color: #ffdab9; /* Change on hover */
+}
